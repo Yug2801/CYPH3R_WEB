@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 
 import "../css/frontsmall.css";
 
-import blogsimage from "../json/blog";
+import slide from "../json/slide";
+
 import ImageSlider from "./imageslider";
 
 
@@ -10,7 +11,7 @@ function Frontsmall() {
   const [, setMenuItems] = useState([]);
 
   useEffect(() => {
-    setMenuItems(blogsimage);
+    setMenuItems(slide);
   }, []);
 
   return (
@@ -20,7 +21,7 @@ function Frontsmall() {
           
           <div className="right">
           
-          <ImageSlider blogsimage={blogsimage} />
+          <ImageSlider slide={slide} />
         </div>
       <div className="down">
        

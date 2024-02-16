@@ -14,8 +14,9 @@
     width: 120%;
     height: 120%;
     object-fit: cover;
-    animation: zoom 20s infinite alternate ease-in-out;
-    opacity: 0.95;
+    animation: zoom 20s infinite alternate ease;
+    
+    filter: brightness(0.8);
   }
   
   @keyframes zoom {
@@ -23,7 +24,7 @@
       transform: scale(1);
     }
     100% {
-      transform: scale(1.2);
+      transform: scale(1.05);
      
     }
   }
@@ -34,7 +35,7 @@
     display:flex;
     position: relative;
     justify-content: center;
-    margin-top: 50vmin;
+    margin-top: 70vmin;
     z-index: 99;
   }
   
@@ -79,9 +80,11 @@
   display: block;
   float: left;
   align-items: center;
-  margin-left: 20%;
+  margin-left: 15%;
     margin-top: 35vh;
     z-index: 100;
+    margin-right: 5%;
+    opacity: 0.8;
 }
 @media (max-width: 1080px) {
   .image-slider{
@@ -94,6 +97,7 @@
   }
   .down-midright-text{
     margin-top: 5vh;
+    margin-left: 5%;
     
   }
 }

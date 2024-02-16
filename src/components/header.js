@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import logo from "../logo.svg";
+import logo from '../image/cyph3r.png';
 import { FaAlignRight } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import "../css/header.css";
@@ -9,6 +9,14 @@ import { Link } from "react-router-dom";
 function Header() {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
 
+    if (!showMediaIcons) {
+      document.body.classList.add('menu-closed');
+    } else {
+      document.body.classList.remove('menu-closed');
+    }
+    
+
+  
   useEffect(() => {
     const handleScroll = (event) => {
       if (showMediaIcons) {
@@ -42,9 +50,9 @@ function Header() {
           className="Hamburger"
           onClick={() => setShowMediaIcons(!showMediaIcons)}
         >
-          <a className="icon" href="https://github.com/Yug2801/">
+          <div className="icon" href="#">
             <FaAlignRight />
-          </a>
+          </div>
         </div>
 
         <div className="upper-nav">
@@ -58,31 +66,32 @@ function Header() {
               <Link to="/about" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>ABOUT US</Link>
               </li>
               <li className="list-items">
-              <Link to="/" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>HOME</Link>
+              <Link to="/" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>ALL PROJECTS</Link>
               </li>
               <li className="list-items">
               <Link to="/blog" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>BLOG</Link>
                 
               </li>
               <li className="list-items">
-                <Link to="/contactus" className="list-item" onClick={() => setShowMediaIcons(!showMediaIcons)}>CONTACT</Link>
+              
+                <Link to="/contactus" className="list-item" onClick={() => setShowMediaIcons(!showMediaIcons)}>CONTACT US</Link>
               </li>
             </ul>
           </div>
           <div className="right-nav">
             <ul>
               <li className="list-items">
-                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-                  <FaFacebook /> Facebook
+                <a className="list-item" href="https://discord.com/invite/Qzx9caed64" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                  <FaDiscord /> Facebook
                 </a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="https://www.instagram.com/cyph3r.iiitkota?igsh=cDxajQ0bzNubzMx" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   <FaInstagram /> Instagram
                 </a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="olk" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   {" "}
                   <FaLinkedin /> Linkedin
                 </a>
@@ -92,17 +101,17 @@ function Header() {
           <div className="right-nav2">
             <ul>
               <li className="list-items">
-                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-                  <FaFacebook /> 
+                <a className="list-item" href="https://discord.com/invite/Qzx9caed64" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                  <FaDiscord /> 
                 </a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="https://github.com/Yug2801/" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="https://www.instagram.com/cyph3r.iiitkota?igsh=cDxajQ0bzNubzMx" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   <FaInstagram /> 
                 </a>
               </li>
               <li className="list-items">
-                <a className="list-item" href="https://github.com/Yug2801/"onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                <a className="list-item" href="mdflkf"onClick={() => setShowMediaIcons(!showMediaIcons)}>
                   {" "}
                   <FaLinkedin /> 
                 </a>

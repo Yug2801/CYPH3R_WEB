@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/footer.css'
 
-import { FaFacebookF } from 'react-icons/fa6';
+import { FaDiscord } from "react-icons/fa6";
 
 import { FaInstagram } from 'react-icons/fa6';
 
@@ -17,8 +17,8 @@ function Foote(){
      
      </div>
      <div className="footer-link">
-      <FaFacebookF/>
-      <FaInstagram/>
+      <a href="https://discord.com/invite/Qzx9caed64" target="blank"><FaDiscord/></a>
+      <a href="https://www.instagram.com/cyph3r.iiitkota?igsh=cDxajQ0bzNubzMx" target="blank"> <FaInstagram/></a>
       <FaLinkedinIn/>
      </div>
     </div>

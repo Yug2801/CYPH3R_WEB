@@ -17,7 +17,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  margin-top: ;
+ 
   height: 100%;
   background-image: url(../image/ABOUT-US.jpg);
   background-position: center;
@@ -150,7 +150,6 @@
   color: rgb(43, 126, 199);
 }
 
-/* Our Goal */
 #goal {
   width: 80%;
   height: 100vmin;
@@ -204,7 +203,59 @@
   filter: drop-shadow(5px 6px 7px black);
 }
 
+#faculty{
+  width: 80%;
+  margin: 4rem auto 1rem;
+}
+#faculty h2{
+  text-align: center;
+  margin: 1rem auto 4rem;
+  position: relative;
+}
+#faculty h2::after {
+  content: '';
+  height: 4px;
+  margin: 0 auto;
+  text-align: center;
+  width: 15%;
+  background-color: aqua;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  border-radius: 5px;
+  transform: translate(-50%);
+}
+.facultyContainer {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#past-team {
+  width: 80%;
+  margin: 4rem auto 1rem;
+}
 
+#past-team h2 {
+  text-align: center;
+  margin: 1rem auto 4rem;
+  position: relative;
+}
+
+#past-team h2::after {
+  content: '';
+  height: 4px;
+  margin: 0 auto;
+  text-align: center;
+  width: 15%;
+  background-color: aqua;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  border-radius: 5px;
+  transform: translate(-50%);
+}
 #our-Team {
   width: 80%;
   margin: 4rem auto 1rem;
@@ -230,6 +281,7 @@
   transform: translate(-50%);
 }
 
+
 .teamContainer {
   width: 70%;
   margin: 0 auto;
@@ -237,6 +289,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 
 .team-item {
   display: flex;
@@ -249,6 +302,7 @@
 .team-item h5 {
   margin-top: 1rem;
   font-size: 1.1rem;
+  margin-bottom:2vmin;
 }
 
 .team-item span {
@@ -259,6 +313,7 @@
 }
 
 .team-item img {
+  border-radius: 50%;
   width: 80px;
 }
 
@@ -365,7 +420,7 @@
   flex: 1; /* Allow the right side to take available space */
 }
 
-/* ... (Other CSS) ... */
+
 
 #goal {
   width: 80%;

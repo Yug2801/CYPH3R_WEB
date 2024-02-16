@@ -1,25 +1,23 @@
-/* Reset some default styles */
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
   }
-  
   body {
     font-family: 'Arial', sans-serif;
   }
-  
-  /* Header styles */
+  .App-header .icon{
+    cursor: pointer;
+  }
+ 
   .App-header {
     position: fixed;
     top: 0;
     width: 100%;
     height: 0;
     z-index: 3;
+ 
   }
-  .App-header:hover{
-    background-color: rgba(172, 169, 169, 0); /* Red color with 50% opacity */
-    backdrop-filter: blur(8px); 
-  }
+
   
   .background-effect::before {
     position: absolute;
@@ -47,18 +45,36 @@ body, h1, h2, h3, p, ul {
     background-size: cover;
     background-position: center;
     width: 100%;
-    filter: brightness(1);
+    filter: brightness(1); 
+    
+
+ 
   }
+.menu-open .New-menu {
+  transition: transform 0.5s ease;
+  transform: translateY(0%);
+}
+
+.menu {
+  transition: transform 0.5s ease;
+  transform: translateY(-100%);
+}
+
+.menu-closed .New-menu {
+  transition: transform 0.5s ease;
+  transform: translateY(-100%);
+}
+
   
   .App-logo {
     position: relative;
-    height: 10vmin;
+    height: 9vh;
     pointer-events: none;
     float: left;
     width: max-content;
     margin-left: 3vmin;
     margin-top: 3vmin;
-    filter: brightness(1.5);
+    filter: brightness(0.8);
     z-index: 999;
     color: white;
   }
@@ -102,9 +118,12 @@ body, h1, h2, h3, p, ul {
     flex-direction: row;
   }
   .menu{
+   
     height: 0vmin;
     width: 100%;
     z-index: 0;
+
+ 
   }
   .New-menu .left-nav {
     height: 80%;
@@ -330,8 +349,7 @@ body, h1, h2, h3, p, ul {
       justify-content: center;
     }
     .App-logo{
-      width: 10vh;
-      height: 7vh;
+   
       margin-left: 1vmin;
     }
   }

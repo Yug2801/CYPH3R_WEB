@@ -23,7 +23,7 @@ color: rgb(255, 255, 255);
     width: 0.5em;
     height: 1.2em;
     background-color: rgb(103, 38, 173);
-    animation: blink 0.7s infinite;
+    animation: blink 0.3s infinite;
     position: absolute;
   }
   
@@ -32,4 +32,8 @@ color: rgb(255, 255, 255);
       opacity: 0;
     }
   }
-  
+  @media (max-width: 768px) {
+    .text-field{
+      font-size: 1.5rem;
+    }
+  }

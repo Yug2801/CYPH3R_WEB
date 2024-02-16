@@ -1,13 +1,12 @@
 
 //import './Main.css';
 
-import About from './About';
-import CenteredCloudWithText from './cloud';
-import Foote from './footer';
-import Front from './front';
-import Header from './header';
-import Horizontal from './horizontal';
-
+import About from '../components/About';
+import CenteredCloudWithText from '../components/cloud';
+import Foote from '../components/footer';
+import Front from '../components/front';
+import Header from '../components/header';
+import Horizontal from '../components/horizontal';
 
 
 
@@ -15,6 +14,7 @@ function Main() {
   const containerStyle = {
     overflow: 'hidden',
   };
+  
   return (
     <div className="Main">
       <header className='Main-header'>

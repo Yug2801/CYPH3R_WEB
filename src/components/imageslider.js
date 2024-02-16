@@ -4,7 +4,7 @@ import '../css/imageslider.css'; // Create this CSS file for zoom animation
 import '../css/textchange.css'; // Create this CSS file for zoom and fade animations
 
 
-const ImageSlider = ({ blogsimage }) => {
+const ImageSlider = ({ slide }) => {
 
   
 
@@ -17,16 +17,16 @@ const ImageSlider = ({ blogsimage }) => {
     if (typingRef.current) {
       clearInterval(typingRef.current);
     }
-    typingRef.current = startTyping(blogsimage[activeIndex].label);
+    typingRef.current = startTyping(slide[activeIndex].label);
 
     const interval = setInterval(() => {
-      setActiveIndex((prevIndex) => (prevIndex + 1) % blogsimage.length);
+      setActiveIndex((prevIndex) => (prevIndex + 1) % slide.length);
       setTypedText('');
       if (typingRef.current) {
         clearInterval(typingRef.current);
       }
-      typingRef.current = startTyping(blogsimage[activeIndex].label);
-    }, 3000);
+      typingRef.current = startTyping(slide[activeIndex].label);
+    }, 6000);
 
     return () => {
       clearInterval(interval);
@@ -34,7 +34,7 @@ const ImageSlider = ({ blogsimage }) => {
         clearInterval(typingRef.current);
       }
     };
-  }, [activeIndex, blogsimage, blogsimage.length]);
+  }, [activeIndex, slide, slide.length]);
 
   const startTyping = (text) => {
     let index = 0;
@@ -45,15 +45,15 @@ const ImageSlider = ({ blogsimage }) => {
       } else {
         clearInterval(typingRef.current);
       }
-    }, 100);
+    }, 50);
   };
   return (
     <div className="image-slider">
       <TransitionGroup>
         <CSSTransition key={activeIndex} classNames="image-zoom" timeout={0}>
           <img
-            src={blogsimage[activeIndex].imageSrc}
-            alt={blogsimage[activeIndex].label}
+            src={slide[activeIndex].imageSrc}
+            alt={slide[activeIndex].label}
           />
         </CSSTransition>
       </TransitionGroup>
@@ -70,7 +70,7 @@ const ImageSlider = ({ blogsimage }) => {
       </div>
 
       <div className="dots">
-        {blogsimage.map((data, index) => (
+        {slide.map((data, index) => (
           <span
             key={index}
             className={index === activeIndex ? 'active' : ''}

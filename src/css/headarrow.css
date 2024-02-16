@@ -50,7 +50,7 @@ text-decoration: underline;
  
     .allblog-link{
         float: right;
-        margin-top:-3vmin;
+        display: block;
         margin-right: 15vmin;
         transition: all 0.3s ease;
        

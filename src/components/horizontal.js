@@ -7,6 +7,7 @@ import Features from "./features";
 function Horizontal() {
 return(
     <div className="blog-menu">
+    <div className="blogs">
       <div className="head-arrow">
       <div className="hleft"></div>
         <div className="hmid">
@@ -15,7 +16,8 @@ return(
         </div>
         </div>
         <div className="feat"><Features/></div>
-        <div className="allblog-link"><Link to= "/blog">+All Blogs <FaArrowRightLong/></Link></div>
+        <div className="allblog-link "><Link to= "/blog">+All Blogs <FaArrowRightLong/></Link></div>
+        </div>
         <hr/>
         </div>
           );
