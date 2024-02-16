@@ -2,7 +2,7 @@
 import '../css/About.css';
 import '../css/animate.css'
 import { FaArrowRight } from 'react-icons/fa6';
-import profile from '../image/profile.png'
+import mayank from '../image/Mayank.png'
 import box from '../svg/box.svg'
 import flag from '../svg/flag.svg'
 import aswmg from '../svg/awsmg.svg'
@@ -88,7 +88,7 @@ const  About = forwardRef((props, ref)=> {
             
         <div className='down-about' ref={profileRef} >
             <div className='about-image'>
-            <img src={profile} alt={'Profile'}/>
+            <img src={mayank} alt={'Profile'}/>
             </div>
 
    

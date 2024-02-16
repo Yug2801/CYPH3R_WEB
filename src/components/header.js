@@ -66,7 +66,7 @@ function Header() {
               <Link to="/about" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>ABOUT US</Link>
               </li>
               <li className="list-items">
-              <Link to="/" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>ALL PROJECTS</Link>
+              <Link to="/" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>EVENTS</Link>
               </li>
               <li className="list-items">
               <Link to="/blog" className="list-item"  onClick={() => setShowMediaIcons(!showMediaIcons)}>BLOG</Link>

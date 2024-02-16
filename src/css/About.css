@@ -93,8 +93,8 @@ margin-right: 15%;
   color: white;
 }
 .down-about{
-  width: fit-content;
-  height: fit-content;
+  width: 50vmin;
+  height: 50vmin;
   background-color: rgb(105, 105, 105);
 margin-top: -5vmin;
 
@@ -118,6 +118,10 @@ clip-path:  polygon(3.00% 18.15%, 96.52% 4.06%, 95.21% 98.14%, 2.64% 98.13%, 95.
 
 
 transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.about-image img{
+  height: 100%;
+  width: 100%;
 }
 .about-left-down-right{
   opacity: 0; 

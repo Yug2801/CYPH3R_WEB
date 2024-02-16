@@ -38,7 +38,7 @@
 }
 
 .features-item:hover {
-  transform: scale(1.05);
+  transform: scale(1);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
 }
 
@@ -51,11 +51,11 @@
 
 .features p {
   
-  font-size: 2vmin;
+  font-size: 100%;
   letter-spacing: 0.1vmin;
   font-weight: 400;
   word-spacing: 1vmin;
-  line-height: 4vmin;
+  line-height: 200%;
   color: black;
   opacity: 0.6;
   padding-left: 5%;
@@ -108,7 +108,7 @@ hr{
 font-size: 3vmin;
 }
 .features p{
-font-size: 2.5vmin;
+
 letter-spacing: 0.1vmin;
   
 }
@@ -119,20 +119,22 @@ letter-spacing: 0.1vmin;
     height: 50vh;
   }
   .row {
-
+padding: 10%;
+gap:8vmin;
     grid-template-columns: 1fr;
   }
   .features-item {
-    width: 65%;
+    width: 80%;
     
   }
   .features h4{
     font-size: 1.2rem;
   }
   .features p{
-    font-size: 1rem;
+  
     letter-spacing: 0.1vmin;
-    line-height: 8vmin;
+   
+    margin-top: 15%;
     }
 
 }
