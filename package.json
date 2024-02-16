@@ -1,7 +1,7 @@
 {
   "name": "cyph3r_web",
   "version": "0.1.0",
-  "homepage": "https://yug2801.github.io/CYPH3R_WEB/",
+  "homepage": "https://yug2801.github.io/CYPH3R_WEB",
   "private": true,
   "dependencies": {
     "@firebase/firestore": "^4.4.2",
