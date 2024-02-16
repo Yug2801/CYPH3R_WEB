@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CYPH3R_WEB/static/css/main.b5ee2730.css",
-    "main.js": "/CYPH3R_WEB/static/js/main.c7d1b4d6.js",
+    "main.css": "/CYPH3R_WEB/static/css/main.bda3352a.css",
+    "main.js": "/CYPH3R_WEB/static/js/main.cbb6b239.js",
     "static/js/592.cf92ad9a.chunk.js": "/CYPH3R_WEB/static/js/592.cf92ad9a.chunk.js",
     "static/media/cyber-security.jpg": "/CYPH3R_WEB/static/media/cyber-security.b36f03de7164faa0db5a.jpg",
     "static/media/gyan.png": "/CYPH3R_WEB/static/media/gyan.00ef8f3c05fa09ea9769.png",
@@ -10,6 +10,7 @@
     "static/media/Anivesh.png": "/CYPH3R_WEB/static/media/Anivesh.754beeb10ea027defef4.png",
     "static/media/Mayank.png": "/CYPH3R_WEB/static/media/Mayank.ef0291a2be9c25082d8e.png",
     "static/media/Manish.png": "/CYPH3R_WEB/static/media/Manish.ff20adaa43e1f67c2591.png",
+    "static/media/contact-back.jpg": "/CYPH3R_WEB/static/media/contact-back.dbc1d930b8bb5e76deab.jpg",
     "static/media/divyansh.jpg": "/CYPH3R_WEB/static/media/divyansh.5f03e3f87c3fa88ccfac.jpg",
     "static/media/Kartik.jpg": "/CYPH3R_WEB/static/media/Kartik.ceaed93b03e0150bc873.jpg",
     "static/media/profile.png": "/CYPH3R_WEB/static/media/profile.eac6ab11fc2b10b89208.png",
@@ -43,12 +44,12 @@
     "static/media/fingerprint.svg": "/CYPH3R_WEB/static/media/fingerprint.f070c50b3ef55d6848b885e249138601.svg",
     "static/media/cloud.svg": "/CYPH3R_WEB/static/media/cloud.b033f27083a170f24d59dfe4db058b87.svg",
     "index.html": "/CYPH3R_WEB/index.html",
-    "main.b5ee2730.css.map": "/CYPH3R_WEB/static/css/main.b5ee2730.css.map",
-    "main.c7d1b4d6.js.map": "/CYPH3R_WEB/static/js/main.c7d1b4d6.js.map",
+    "main.bda3352a.css.map": "/CYPH3R_WEB/static/css/main.bda3352a.css.map",
+    "main.cbb6b239.js.map": "/CYPH3R_WEB/static/js/main.cbb6b239.js.map",
     "592.cf92ad9a.chunk.js.map": "/CYPH3R_WEB/static/js/592.cf92ad9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5ee2730.css",
-    "static/js/main.c7d1b4d6.js"
+    "static/css/main.bda3352a.css",
+    "static/js/main.cbb6b239.js"
   ]
 }
