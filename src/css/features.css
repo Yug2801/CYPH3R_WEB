@@ -29,10 +29,12 @@
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   height: 50vh;
   overflow: hidden;
-  width: 80%;
+  width: 40vh;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
-
+.features-item .heading {
+height: 8vh;
+}
 .features-item a {
   text-decoration: none;
 }
@@ -41,7 +43,12 @@
   transform: scale(1);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
 }
+.features-item .para{
+ 
+  width: 80%;
 
+  
+}
 .features h4 {
   opacity: 0.8;
   color: #000000;
@@ -49,17 +56,14 @@
   padding-top: 5vmin;
 }
 
-.features p {
+.para p {
   
-  font-size: 100%;
-  letter-spacing: 0.1vmin;
-  font-weight: 400;
-  word-spacing: 1vmin;
+  font-size: 70%;
+ letter-spacing: 0.1vmin;
   line-height: 200%;
   color: black;
   opacity: 0.6;
-  padding-left: 5%;
-  padding-right: 5%;
+
 }
 
 .line-dec {
@@ -96,13 +100,14 @@ hr{
   }
  .features-item{
   border-radius: 30px;
+ 
  }
  .bimage {
   
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }.features-item {
-  width: 80%;
+  width: 60vh;
 }
 .features h4{
 font-size: 3vmin;
@@ -114,7 +119,7 @@ letter-spacing: 0.1vmin;
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   .features-item{
     height: 50vh;
   }
@@ -126,6 +131,9 @@ gap:8vmin;
   .features-item {
     width: 80%;
     
+  }
+  .features-item .heading{
+    height: 8vh;
   }
   .features h4{
     font-size: 1.2rem;

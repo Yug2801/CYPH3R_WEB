@@ -82,7 +82,7 @@ function Header() {
             <ul>
               <li className="list-items">
                 <a className="list-item" href="https://discord.com/invite/Qzx9caed64" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-                  <FaDiscord /> Facebook
+                  <FaDiscord /> Discord
                 </a>
               </li>
               <li className="list-items">
