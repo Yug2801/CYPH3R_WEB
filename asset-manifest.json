@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CYPH3R_WEB/static/css/main.16702986.css",
-    "main.js": "/CYPH3R_WEB/static/js/main.e32e8e72.js",
+    "main.css": "/CYPH3R_WEB/static/css/main.b9f480a7.css",
+    "main.js": "/CYPH3R_WEB/static/js/main.bc45c390.js",
     "static/js/592.cf92ad9a.chunk.js": "/CYPH3R_WEB/static/js/592.cf92ad9a.chunk.js",
     "static/media/cyber-security.jpg": "/CYPH3R_WEB/static/media/cyber-security.b36f03de7164faa0db5a.jpg",
     "static/media/gyan.png": "/CYPH3R_WEB/static/media/gyan.00ef8f3c05fa09ea9769.png",
@@ -44,12 +44,12 @@
     "static/media/fingerprint.svg": "/CYPH3R_WEB/static/media/fingerprint.f070c50b3ef55d6848b885e249138601.svg",
     "static/media/cloud.svg": "/CYPH3R_WEB/static/media/cloud.b033f27083a170f24d59dfe4db058b87.svg",
     "index.html": "/CYPH3R_WEB/index.html",
-    "main.16702986.css.map": "/CYPH3R_WEB/static/css/main.16702986.css.map",
-    "main.e32e8e72.js.map": "/CYPH3R_WEB/static/js/main.e32e8e72.js.map",
+    "main.b9f480a7.css.map": "/CYPH3R_WEB/static/css/main.b9f480a7.css.map",
+    "main.bc45c390.js.map": "/CYPH3R_WEB/static/js/main.bc45c390.js.map",
     "592.cf92ad9a.chunk.js.map": "/CYPH3R_WEB/static/js/592.cf92ad9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16702986.css",
-    "static/js/main.e32e8e72.js"
+    "static/css/main.b9f480a7.css",
+    "static/js/main.bc45c390.js"
   ]
 }
