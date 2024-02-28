@@ -34,6 +34,7 @@ const Features = () => {
     <div className="features" >
       <div className="container-blog">
         <div className="row1">
+        <div className='blog-container'>
           <div>
             <div className="features-content"  ref={blogRef}>
               <div className="row" style={{ color: 'antiquewhite' }}>
@@ -97,6 +98,7 @@ const Features = () => {
                     </div>
              </Link>
                   </div>
+                </div>
                 </div>
               </div>
             </div>

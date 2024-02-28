@@ -37,6 +37,8 @@
 }
 
 .Appfront-small .up-name {
+  padding-left: 5vmin;
+  padding-right: 5vmin;
 
   opacity: 0.8;
   color: rgba(0, 0, 0, var(1));
