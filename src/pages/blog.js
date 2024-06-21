@@ -3,7 +3,7 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-
+import '../css/features.css'
 import '../css/blog.css';
 import images from '../image/images.jpg';
 import images1 from '../image/images1.jpg';
@@ -37,10 +37,12 @@ const BlogPage = () => {
                     <div className="icon">  <img src={images} className='bimage' alt="logo" /></div>
                     <h4>Cybersecurity Basic</h4>
                     <div className="line-dec"></div>
+                    <div className='para'>
                
                     <p>
                     Cybersecurity is a popular topic, but do you know why it is essential? 
                     </p>
+                    </div>
                     </Link>
                   </div>
                 </div>
@@ -51,10 +53,11 @@ const BlogPage = () => {
                     <div className="icon"> <img src={images1} className='bimage' alt="logo" /></div>
                     <h4>Cyber Attack</h4>
                     <div className="line-dec"></div>
-               
+               <div className='para'>
                     <p>
                     Life today has become far more comfortable because of various digital devices
                     </p>
+                    </div>
                     </Link>
                   </div>
                 </div>
@@ -64,10 +67,12 @@ const BlogPage = () => {
                     <div className="icon"> <img src={untitled} className='bimage' alt="logo" /></div>
                     <h4>IP Address</h4>
                     <div className="line-dec"></div>
+                    <div className='para'>
               
                     <p>
                     With the advancement of technology, a drastic need for an IP address 
                     </p>
+                    </div>
                     </Link>
 
                   </div>
@@ -79,10 +84,12 @@ const BlogPage = () => {
                     <div className="icon"> <img src={z} className='bimage' alt="logo" /></div>
                     <h4>Cryptography</h4>
                     <div className="line-dec"></div>
+                    <div className='para'>
               
                     <p>
                     Cryptography is both art and science referred almost exclusively to encryption, 
                     </p>
+                    </div>
              </Link>
                   </div>
                 </div>
